@@ -212,7 +212,6 @@ void Tetris::clearLine()
 		update = true;
 
 		level = (score + 99) / 100;
-
 	}
 	lineCount += lines;
 }
