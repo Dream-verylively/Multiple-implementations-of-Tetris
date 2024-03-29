@@ -23,6 +23,9 @@ private:
 	void moveLeftRight(int offest);
 	void rotate();
 	void drawScore();
+	void  checkOver();
+	void saveScore();
+	void displayOver();
 
 private:
 	int delay = 30;
@@ -35,6 +38,8 @@ private:
 	int topMargin;
 	int blockSize;
 	IMAGE imgBg;
+	IMAGE imgOver;
+	IMAGE imgWin;
 
 	////预告方块
 	Block *curBlock;
@@ -43,7 +48,10 @@ private:
 	//备份
 
 	int score;
+	int hightScore;
 	int level;
 	int lineCount;// 消除了几行
+
+	bool gameOver;
 };
 
