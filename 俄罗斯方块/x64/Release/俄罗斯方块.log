@@ -1,0 +1,165 @@
+﻿  Block.cpp
+  main.cpp
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Block.cpp(12,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(258,6):
+  可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Block.cpp(12,3):
+  	“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [14]”转换为“LPCTSTR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Block.cpp(12,22):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Block.cpp(12,3):
+  尝试匹配参数列表“(IMAGE *, const char [14])”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Block.cpp(20,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Block.cpp(98,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Block.cpp(99,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Tetris.cpp
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(38,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(258,6):
+  可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(38,2):
+  	“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [12]”转换为“LPCTSTR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(38,21):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(38,2):
+  尝试匹配参数列表“(IMAGE *, const char [12])”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(39,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(258,6):
+  可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(39,2):
+  	“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [13]”转换为“LPCTSTR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(39,22):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(39,2):
+  尝试匹配参数列表“(IMAGE *, const char [13])”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(42,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(47,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [23]”转换为“LPCWSTR”
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(47,16):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(47,2):
+  尝试匹配参数列表“(const char [23], int, int, int)”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(49,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(258,6):
+  可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(49,2):
+  	“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [12]”转换为“LPCTSTR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(49,20):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(49,2):
+  尝试匹配参数列表“(IMAGE *, const char [12])”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(205,11): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(252,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [22]”转换为“LPCWSTR”
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(252,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(252,3):
+  尝试匹配参数列表“(const char [22], int, int, int)”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(302,2): error C2664: “errno_t strcpy_s(char *,rsize_t,const char *)”: 无法将参数 1 从“WCHAR [32]”转换为“char *”
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(302,12):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(32,30):
+  参见“strcpy_s”的声明
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(124,1):
+  可能是“errno_t strcpy_s(char (&)[_Size],const char *) throw()”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(302,2):
+  	“errno_t strcpy_s(char (&)[_Size],const char *) throw()”: 应输入 2 个参数，却提供了 3 个
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(302,2):
+  尝试匹配参数列表“(WCHAR [32], size_t, const wchar_t [15])”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(305,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(226,6):
+  可能是“void outtextxy(int,int,TCHAR)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(305,2):
+  	“void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [32]”转换为“TCHAR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(305,22):
+  		没有使该转换得以执行的上下文
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(225,6):
+  或    “void outtextxy(int,int,LPCTSTR)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(305,2):
+  	“void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [32]”转换为“LPCTSTR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(305,22):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(305,2):
+  尝试匹配参数列表“(int, int, char [32])”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(309,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(310,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(226,6):
+  可能是“void outtextxy(int,int,TCHAR)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(310,2):
+  	“void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [32]”转换为“TCHAR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(310,23):
+  		没有使该转换得以执行的上下文
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(225,6):
+  或    “void outtextxy(int,int,LPCTSTR)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(310,2):
+  	“void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [32]”转换为“LPCTSTR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(310,23):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(310,2):
+  尝试匹配参数列表“(int, int, char [32])”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(314,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(226,6):
+  可能是“void outtextxy(int,int,TCHAR)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(314,2):
+  	“void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [32]”转换为“TCHAR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(314,27):
+  		没有使该转换得以执行的上下文
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(225,6):
+  或    “void outtextxy(int,int,LPCTSTR)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(314,2):
+  	“void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [32]”转换为“LPCTSTR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(314,27):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(314,2):
+  尝试匹配参数列表“(int, int, char [32])”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(318,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(226,6):
+  可能是“void outtextxy(int,int,TCHAR)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(318,2):
+  	“void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [32]”转换为“TCHAR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(318,22):
+  		没有使该转换得以执行的上下文
+  E:\VS\VC\Auxiliary\VS\include\easyx.h(225,6):
+  或    “void outtextxy(int,int,LPCTSTR)”
+  	E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(318,2):
+  	“void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [32]”转换为“LPCTSTR”
+  		E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(318,22):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(318,2):
+  尝试匹配参数列表“(int, int, char [32])”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(343,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(343,16):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(343,2):
+  尝试匹配参数列表“(const char [16], int, int, int)”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(347,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(347,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(347,3):
+  尝试匹配参数列表“(const char [18], int, int, int)”时
+  
+E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(351,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [17]”转换为“LPCWSTR”
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(351,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  E:\Desktop files\code\Multiple-implementations-of-Tetris\俄罗斯方块\俄罗斯方块\Tetris.cpp(351,3):
+  尝试匹配参数列表“(const char [17], int, int, int)”时
+  

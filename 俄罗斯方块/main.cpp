@@ -15,10 +15,20 @@ int main(void) {
 	Tetris game(20, 10, 263, 133, 36);
 	game.play();
 
-	/*game.init();
+	/*game.init(); 
 	Block block;
 	block.draw(56, 58);
 	system("pause");*/
 
 	return 0;
 }
+
+
+/*
+	预修复
+
+	1.结束不判定(finish)
+	2.最高分无文档不记录(finish)
+	3.结束动画背景不透明
+	4.消除行数打印位置偏移(finish)
+*/
